@@ -54,6 +54,17 @@ exist, but they need special sensors and subscriptions, and the data usually lea
 
 ![Setup: drawing the entry line on the camera picture](docs/images/setup.png)
 
+### Reports
+
+Pick any period and download it as PDF, Excel or CSV. Every format is built from the same numbers as the app.
+
+![Reports page: choose a period, see the totals, download PDF, Excel or CSV](docs/images/reports.png)
+
+Example files, made by the system from a short demo run:
+[PDF report](docs/examples/example-report.pdf) · [Excel workbook](docs/examples/example-report.xlsx)
+
+<img src="docs/images/report-page-1.png" alt="First page of the example PDF report: entries, exits, peak inside, summary table and an hourly chart" width="480">
+
 ## Results
 
 Measured end to end on the live system, against the six [MOTChallenge](https://motchallenge.net) videos that have
@@ -102,6 +113,8 @@ This is the public showcase. The production code is kept private.
 
 The demo footage in the screenshots is from MOTChallenge (MOT17: Milan et al. 2016; MOT20: Dendorfer et al. 2020),
 used under CC BY-NC-SA 3.0 for non-commercial demonstration. Screenshots that contain it are shared under the same licence.
+The example reports count people in that footage; the busy streets and crowds in it are not an entrance, so entries
+and exits don't balance the way they would at a real door.
 The Lusail University name and logo are used with the university's permission and are not covered by any licence here.
 
 © 2026 Awab Mohamed. All rights reserved, except as stated above for the demo footage.
